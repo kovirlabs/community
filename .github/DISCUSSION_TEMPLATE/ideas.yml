@@ -1,0 +1,40 @@
+title: "Idea: "
+labels: ["status: under-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an idea. Kovir Labs builds tools that many mission-driven organizations
+        can use, so tell us about the need, not just the solution. The kovir.org team reviews ideas
+        monthly.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you running into?
+      description: Describe what's hard, slow, or expensive today.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who has this problem?
+      description: For example, small food pantries, volunteer coordinators, or grant writers at arts nonprofits.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you handle it today?
+      description: Spreadsheets, paper, a paid tool, or nothing at all? What's missing?
+    validations:
+      required: true
+  - type: dropdown
+    id: reach
+    attributes:
+      label: How many organizations like yours face this?
+      options:
+        - Just us
+        - A few
+        - Many
+    validations:
+      required: true
